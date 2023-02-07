@@ -1,32 +1,5 @@
-<h1 align="center">PyPhisher</h1>
+<h1 align="center">DwPhisher</h1>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Version-2.1-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/KasRoudra/pyphisher?style=for-the-badge&color=orange">
-  <img src="https://img.shields.io/github/forks/KasRoudra/pyphisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/watchers/KasRoudra/pyphisher?color=cyan&style=for-the-badge&color=purple">
-  <img src="https://img.shields.io/github/issues/KasRoudra/pyphisher?color=red&style=for-the-badge">
-  <img src="https://img.shields.io/github/license/KasRoudra/pyphisher?style=for-the-badge&color=blue">
-  <img src="https://hits.dwyl.com/KasRoudra/PyPhisher.svg" width="140" height="28">
-<br>
-<br>
-  <img src="https://img.shields.io/badge/Author-KasRoudra-purple?style=flat-square">
-  <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
-  <img src="https://img.shields.io/badge/Made%20in-Bangladesh-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
-</p>
-
-
-### [√] Description :
-
-***Ultimate phishing tool in python. Includes popular websites like facebook, twitter, instagram, github, reddit, gmail and many others.***
-
-### [*]Announcent
-
-This project is now a part of [MaxPhisher](https://github.com/KasRoudra/MaxPhisher). Further bug fixes and feature addition will be available in that
-
-
-### [+] Installation
 
 ##### Install dependencies (git, python, php ssh)
 
@@ -41,32 +14,32 @@ This project is now a part of [MaxPhisher](https://github.com/KasRoudra/MaxPhish
 
 ##### Clone this repository
 
- - ```git clone https://github.com/KasRoudra/PyPhisher```
+ - ```git clone https://github.com/KasRoudra/DwPhisher```
 
 ##### Enter the directory
- - ```cd PyPhisher```
+ - ```cd DwPhisher```
 
 ##### Install all modules
  - ```pip3 install -r files/requirements.txt```
 
 ##### Run the tool
- - ```python3 pyphisher.py```
+ - ```python3 DwPhisher.py```
 
 #### Or, directly run
 ```
-wget https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/pyphisher.py && python3 pyphisher.py
+wget https://raw.githubusercontent.com/KasRoudra/DwPhisher/main/DwPhisher.py && python3 DwPhisher.py
 
 ```
 
 ### Pip
- - `pip3 install pyphisher` [For Termux]
- - `sudo pip3 install pyphisher` [For Linux]
- - `pyphisher`
+ - `pip3 install DwPhisher` [For Termux]
+ - `sudo pip3 install DwPhisher` [For Linux]
+ - `DwPhisher`
 
 ### Docker
 
- - `sudo docker pull kasroudra/pyphisher`
- - `sudo docker run --rm -it kasroudra/pyphisher`
+ - `sudo docker pull kasroudra/DwPhisher`
+ - `sudo docker run --rm -it kasroudra/DwPhisher`
 
 ### Support
 
@@ -82,15 +55,15 @@ BSD        | Never tested
 #### Options
 
 ```
-usage: pyphisher.py [-h] [-p PORT] [-o OPTION] [-t TUNNELER]
+usage: DwPhisher.py [-h] [-p PORT] [-o OPTION] [-t TUNNELER]
                     [-r REGION] [-s SUBDOMAIN] [-u URL] [-m MODE]
                     [-e TROUBLESHOOT] [--nokey] [--noupdate]
 
 options:
   -h, --help            show this help message and exit
-  -p PORT, --port PORT  PyPhisher's server port [Default : 8080]
+  -p PORT, --port PORT  DwPhisher's server port [Default : 8080]
   -o OPTION, --option OPTION
-                        PyPhisher's template index [Default : null]
+                        DwPhisher's template index [Default : null]
   -t TUNNELER, --tunneler TUNNELER
                         Tunneler to be chosen while url shortening
                         [Default : Cloudflared]
@@ -101,7 +74,7 @@ options:
                         (Default: null)
   -u URL, --url URL     Redirection url after data capture [Default :
                         null]
-  -m MODE, --mode MODE  Mode of PyPhisher [Default: normal]
+  -m MODE, --mode MODE  Mode of DwPhisher [Default: normal]
   -e TROUBLESHOOT, --troubleshoot TROUBLESHOOT
                         Troubleshoot a tunneler [Default: null]
   --nokey               Use localtunnel without ssh key [Default:
@@ -163,14 +136,14 @@ If not found, php and python modoules will be installed on first run
 
 <h1 align="center">Example</h1>
 
-![PyPhisher](https://raw.githubusercontent.com/KasRoudra/PyPhisher/main/files/pyphisher.gif)
+![DwPhisher](https://raw.githubusercontent.com/KasRoudra/DwPhisher/main/files/DwPhisher.gif)
 
 ## Video Tutorial
-<a href="https://rebrand.ly/pyphishervideo">PyPhisher in Termux</a>
+<a href="https://rebrand.ly/DwPhishervideo">DwPhisher in Termux</a>
 <br/>
-<a href="https://youtu.be/xIEuJkmJ8F0">PyPhisher in Kali Linux by InfoSecPat</a>
+<a href="https://youtu.be/xIEuJkmJ8F0">DwPhisher in Kali Linux by InfoSecPat</a>
 <br/>
-<a href="https://youtu.be/ueF6fNHD8MM">PyPhisher in Kali Linux by Sathvik</a>
+<a href="https://youtu.be/ueF6fNHD8MM">DwPhisher in Kali Linux by Sathvik</a>
 
 ## Whats new in 1.8?
  - *Mailing*
@@ -180,7 +153,7 @@ If not found, php and python modoules will be installed on first run
  - *OTP Support*
    - 20 templates will show an option to enable otp pages
  - *Saved*
-   - An option to view all saved credentials just from PyPhisher. This credentials won't get deleted in PyPhisher update
+   - An option to view all saved credentials just from DwPhisher. This credentials won't get deleted in DwPhisher update
 
 ## Whats new in 1.9?
  - *Loclx*
@@ -199,11 +172,11 @@ If not found, php and python modoules will be installed on first run
 ## Solution of common issues
  - Some secured browsers like Firefox can warn for '@' prefixed links. You should use pure links or custom link to avoid it.
  - VPN or proxy prevents tunneling and even proper internet access. Turn them off you have issues.
- - Some android requires hotspot to start Ngrok or Cloudflared. If you face 'tunneling failed' in android, most probably your hotspot is turned off. Turn it on and keep it on untill you close PyPhisher.
+ - Some android requires hotspot to start Ngrok or Cloudflared. If you face 'tunneling failed' in android, most probably your hotspot is turned off. Turn it on and keep it on untill you close DwPhisher.
  - If you want mailing credentials then you need to use app password. Visit [here](https://myaccount.google.com/u/0/apppasswords) and generate an app password, put that in `files/email.json`. You may need to enable 2FA before it.
  
 ## [!] Disclaimer
-***This tool is developed for educational purposes. Here it demonstrates how phishing works. If anybody wants to gain unauthorized access to someones social media, he/she may try out this at his/her own risk. You have your own responsibilities and you are liable to any damage or violation of laws by this tool. The author is not responsible for any misuse of PyPhisher!***
+***This tool is developed for educational purposes. Here it demonstrates how phishing works. If anybody wants to gain unauthorized access to someones social media, he/she may try out this at his/her own risk. You have your own responsibilities and you are liable to any damage or violation of laws by this tool. The author is not responsible for any misuse of DwPhisher!***
 
 ### This repository is open source to help others. So if you wish to copy, consider giving credit!
 
